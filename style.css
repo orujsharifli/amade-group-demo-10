@@ -1,0 +1,1596 @@
+/* SITE BY ORUJ SHARIFLI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family: GilroyRegular;
+    src: url(./fonts/Gilroy-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url(./fonts/Gilroy-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: GilroySemiBold;
+    src: url(./fonts/Gilroy-Semibold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: GilroyUltraLight;
+    src: url(./fonts/Gilroy-UltraLight.otf) format("opentype");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+a, p, label, h1, h2, h4, span {
+    font-family: GilroyMedium;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    min-height: 100vh;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    background-color: #f68a01;
+    border-radius: 50%;
+}
+
+.social-media-icon {
+    color: #fff;
+    font-size: 30px;
+}
+
+.mail-phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-right: 20px;
+    border-right: 1px solid #fff;
+
+}
+
+.social-media-bar a {
+    text-decoration: none;
+}
+
+
+
+.mail-icon {
+    font-size: 16px;
+    color: #f68a01;
+}
+
+.phone-2 {
+    margin-left: 3px !important;
+}
+
+.mail-link {
+    text-decoration: none;
+    color: #4e4e4e;
+    margin-left: 7px;
+    transition: 0.3s;
+}
+
+.mail-link:hover {
+    text-decoration: underline;
+
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    background: #fff;
+    background-image: url(./img/texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 5px 5px 5px rgb(0 0 0 / 8%);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.language a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.menu-content a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 12px;
+    font-size: 16px;
+}
+
+.menu-content a:hover {
+    background-color: #f68a01;
+    color: #fff;
+    border-radius: 2px;
+    transition: .2s;
+}
+
+.logo-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main-logo {
+    width: 200px;
+    user-select: none;
+}
+
+.main-part-and-social-media {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-part-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    background-image: url(./img/Lawyer-Background-A-Copy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 25%;
+    border-bottom: 5px solid #f68a01;
+}
+
+.is-kagizlari {
+    display: flex;
+    gap: 40px;
+}
+
+.is-kagizzzlari img {
+    width: 256px !important;
+    height: 347px !important;
+}
+
+.is-kagizlari img {
+    height: 300px;
+    width: 210px;
+    object-fit: cover;
+    transition: .7s;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+}
+
+.is-kagizlari img:hover {
+    cursor: grab;
+    transform: scale(1.1);
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%);
+}
+
+#muqavileler-huququ {
+    background-image: url(./img/Slider-bg-1.jpg);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.is-faizi {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0;
+    gap: 65px;
+}
+
+.is-faizi-content {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    background-image: url(./img/Slider-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 5px solid #f68a01;
+    border-bottom: 5px solid #f68a01;
+}
+
+.social-media-part-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+}
+
+.social-media-part {
+    display: flex;
+    width: 65%;
+
+}
+
+
+
+
+.main-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    height: 60%;
+}
+
+.main-part-2 img {
+    height: 400px;
+}
+
+.main-column-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.main-title {
+    font-size: 70px;
+    color: #fff;
+    font-family: GilroySemiBold;
+    width: fit-content;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f68a01;
+}
+
+.main-company-name {
+    font-size: 25px;
+    color: #fff;
+    font-family: GilroySemiBold;
+    text-align: center;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-btn {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f68a01;
+    width: fit-content;
+    user-select: none;
+}
+
+.contact-btn:hover {
+    background-color: #e88200;
+}
+
+.contact-btn:active {
+    position: relative;
+    top: 2px;
+}
+
+.dropbtn {
+    font-family: GilroyMedium;
+    font-size: 16px;
+    color: #000;
+    padding: 5px 12px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-angle-down {
+    margin-left: 7px;
+}
+
+.dropbtn:hover, .dropbtn:active {
+    background-color: #f68a01;
+    color: #fff;
+    border-radius: 2px;
+    transition: .2s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 280px;
+}
+
+.show {
+    display: block !important;
+}
+
+#courses {
+    background-image: url(./img/LegalBackground2.jpg);
+}
+
+.courses-box {
+    width: 100%;
+    height: 800px;
+
+}
+
+.courses-row, .courses-row-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.course-box {
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    border-radius: 20px;
+    width: 360px;
+}
+
+.course-box:hover {
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+#more-button {
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#more-button:hover {
+    background-color: #f6f6f6;
+}
+
+#register-button {
+    color: #fff;
+    background: #f68a01;
+}
+
+#register-button {
+    background-color: #e88200;
+}
+
+.course-title {
+    font-size: 16px;
+    color: #4e4e4e;
+    font-family: GilroySemiBold;
+    width: 87%;
+    text-align: center;
+}
+
+.course-info-register {
+    width: 100%;
+}
+
+
+.box-foot-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    background: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.is-kagizzzlari {
+    align-items: center;
+}
+
+
+.box-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    gap: 20px;
+}
+
+.successful-work-sheets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.course-info-register {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-button {
+    text-decoration: none;
+    color: #4e4e4e;
+    padding: 8px 20px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.course-button:active {
+    position: relative;
+    top: 2px;
+}
+
+.course-box img {
+    width: 360px;
+    object-fit: cover;
+    height: 220px;
+    border-radius: 20px 20px 0 0;
+    user-select: none;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    color: #fff;
+    background-color: #f68a01;
+}
+
+
+
+
+.slide-content {
+    background-image: url(./img/bg_uzor.png);
+}
+
+.middle-part {
+    height: 2000px;
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    background: #f2f2f2;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.government-agencies-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 130px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.government-agencies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85%;
+    width: 80%;
+    user-select: none;
+
+}
+
+.e-qanun {
+    width: 150px;
+}
+
+.vekiller-kollegiyasi {
+    width: 70px;
+}
+
+.ali-mehkeme {
+    width: 85px;
+}
+
+.milli-meclis {
+    width: 160px;
+}
+
+.footer-page-class {
+    margin-left: 10px;
+    width: fit-content;
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.footer-page-class:hover {
+    color: #000;
+}
+
+.fa-circle {
+    color: #f68a01;
+    font-size: 7px;
+}
+
+.text-circle {
+    position: relative;
+    top: 16px;
+}
+
+.pages-content {
+    display: flex;
+    align-items: center;
+    height: 245px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pages {
+    display: flex;
+    width: 100%;
+}
+
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
+.page-section-active {
+    margin-top: 15px;
+}
+
+
+
+.page-1-content {
+    display: flex;
+    width: 25%;
+}
+
+.page-2-content {
+    width: 25%;
+}
+
+.page-3-content {
+    width: 25%;
+}
+
+.page-4-content {
+    width: 25%;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: #4e4e4e;
+}
+
+.copyright-text {
+    user-select: none;
+}
+
+
+/* GO TO TOP */
+
+#myBtn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #f68a01;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: #e88200;
+}
+
+
+#tax-services {
+    height: 1565px;
+    gap: 85px;
+}
+
+/* WHO WE ARE / PAGES */
+.who-are-we-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 172.5px;
+    background-image: url(./img/whoweare_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #f68a01;
+}
+
+.who-are-we {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 55%;
+}
+
+.who-are-we-title {
+    font-size: 45px;
+    color: #fff;
+}
+
+.who-are-we-direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.who-are-we-direction a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.who-are-we-direction i {
+    margin: 0 7px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.who-are-we-direction p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.who-are-we-direction a:hover {
+    color: #ddd;
+}
+
+
+
+
+/* items */
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+}
+
+.items:hover {
+    cursor: grab;
+}
+
+.items:active {
+    cursor: grabbing;
+}
+
+.new-product-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 202px;
+    background: var(--white);
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.new-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.new-product-image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 105px;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #f68a01;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: 0.7s;
+}
+
+.new-product-image {
+    height: 40px;
+    user-select: none;
+}
+
+.div:hover {
+    transform: scale(1.1);
+}
+
+.preference-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #4e4e4e;
+    font-family: GilroyMedium;
+    font-size: 100%;
+    height: 40px;
+}
+
+
+
+.rabite-bank {
+    height: 40px;
+}
+
+.abouuuuut {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* AAAAAA */
+
+.contact-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    background-image: url(./img/book.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 40px;
+}
+
+.contact-us-title-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.progress-ring-value {
+    display: flex;
+    align-items: center;
+    gap: 12.5px;
+}
+
+
+
+.faiz span {
+    color: #fff;
+    font-size: 60px;
+}
+
+#faiz-esas {
+    color: #fff;
+    font-size: 60px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.contact-us-title {
+    font-size: 35px;
+    color: #4e4e4e;
+    font-family: GilroySemiBold;
+}
+
+.contact-us-form {
+    display: flex;
+    width: 100%;
+}
+
+.contact-us-left-form-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    gap: 17px;
+}
+
+.contact-us-left-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 270px;
+}
+
+.contact-us-right-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 270px;
+}
+
+
+
+.contact-us-right-form-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 17px;
+}
+
+.star {
+    color: #f68a01;
+}
+
+
+label {
+    display: flex;
+    width: fit-content;
+    gap: 2px;
+    color: #000;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.form-control {
+    padding: 15px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    width: 90%;
+    /* font-family: GilroyRegular; */
+}
+
+.form-control:hover {
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px;
+}
+
+textarea:hover {
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px;
+}
+
+.text-area {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    resize: none;
+    padding: 6px 11px;
+    width: 90% !important;
+}
+
+.formdur-bu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* .contact-us-form input:hover{
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px;
+} */
+
+.contact-us-form input:focus {
+    border: 1px solid #f68a01;
+}
+
+.text-area:focus {
+    border: 1px solid #f68a01;
+}
+
+.btn-primary {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f68a01;
+    width: fit-content;
+    user-select: none;
+    font-family: GilroyMedium;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #e88200;
+}
+
+.btn-primary:active {
+    position: relative;
+    top: 2px;
+}
+
+/* .slick-prev:before, .slick-next:before {
+    color: #f68a01;
+    font-size: 25px;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-next {
+    right: -40px;
+} */
+
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+.location-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #ac7e21;
+    background-image: url(./img/Slider-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 25% 0 0 0; */
+    border-top: 5px solid #f68a01;
+    border-bottom: 5px solid #f68a01;
+
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 50%;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.contacts-bottom-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icon-and-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-and-info i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.contacts-bottom-title {
+    font-size: 48px;
+    color: #fff;
+    font-family: GilroySemiBold;
+
+
+}
+
+.contacts-bottom-address {
+    font-size: 20px;
+    color: #fff;
+}
+
+.contacts-bottom-phone {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacts-bottom-email {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.partners-title {
+    font-size: 60px;
+    color: #fff;
+    font-family: GilroySemiBold;
+}
+
+.partners-row {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    user-select: none;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.partners img {
+    width: 95px;
+}
+
+.services-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    background-image: url(./img/6881590.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#main-page-content {
+    height: fit-content;
+}
+
+#main-course-main {
+    padding: 60px 0;
+    gap: 65px;
+}
+
+
+.services-box img {
+    height: 300px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 65px;
+    padding: 60px 0;
+}
+
+.services-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.services-title {
+    font-size: 60px;
+    color: #4e4e4e;
+    font-family: GilroySemiBold;
+}
+
+.services-title-secondary {
+    font-size: 24px;
+    color: #4e4e4e;
+}
+
+#is-esas {
+    color: #fff;
+}
+
+#is-secondary {
+    color: #fff;
+    text-align: center;
+}
+
+.services-card-title {
+    font-size: 20px;
+    text-align: center;
+    color: #4e4e4e;
+}
+
+.services-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.services-boxes-row {
+    display: flex;
+    height: 300px;
+    gap: 125px;
+    justify-content: center;
+}
+
+.services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 100%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    background-color: #fff;
+}
+
+#employees {
+    background-image: url(./img/Y0US5W.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-box i {
+    font-size: 69px;
+
+    color: #f68a01;
+}
+
+.services-box svg path {
+    fill: #f68a01;
+}
+
+.services-box:hover {
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%);
+}
+
+#services-box-id {
+    width: 740px;
+}
+
+.services-text {
+    font-size: 16px;
+    color: #4e4e4e;
+    text-align: center;
+}
+
+.services-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12.5px;
+}
+
+
+#services-title-id {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+/* biz kimikde orta sahe */
+
+.who-are-we-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #fff;
+    background-image: url(./img/6881590.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#course-main-content {
+    height: 1010px;
+}
+
+#course-main {
+    gap: 100px;
+}
+
+.who-are-we-main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 70px;
+}
+
+.biz-kimik-sekil-yazi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+}
+
+.biz-kimik-yazi {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+
+}
+
+
+
+.biz-kimik-sekil-yazi img {
+    height: 100%;
+    width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border-radius: 20px;
+    object-fit: cover;
+    user-select: none;
+}
+
+.course-mission-content p {
+    color: #4e4e4e;
+    font-size: 16px;
+}
+
+.successful-work-title {
+    text-align: center;
+}
+
+
+
+/* 
+.about-us-main-text{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f68a01;
+} */
+
+.biz-kimik-yazi h1 {
+    color: #4e4e4e;
+    font-size: 20px;
+    font-family: GilroyUltraLight;
+    line-height: 190.6%;
+}
+
+.text-1 {
+    display: flex;
+    align-items: center;
+}
+
+#biz-kimik-sekil-yazi-id {
+    flex-direction: row-reverse;
+}
+
+.page-1-cover {
+    display: flex;
+    align-items: center;
+}
+
+#publications {
+    background-image: url(/img/home-background-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.publications-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1500px;
+    background-image: url(./img/6881590.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.publications {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    width: 60%;
+    height: 90%;
+}
+
+
+.publications-card-content:hover {
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.publications-card-content {
+    display: flex;
+    width: 1140px;
+    height: 260px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 20px;
+}
+
+.publication-image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25.5%;
+    height: 100%;
+    user-select: none;
+}
+
+.publication-description {
+    font-size: 15px;
+    color: #4e4e4e;
+    line-height: 22px;
+}
+
+.publications-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.publication-image {
+    width: 220px;
+    height: 170px;
+    object-fit: cover;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 3px 0px;
+    border-radius: 10px;
+}
+
+.publication-description-download {
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+    width: 815px;
+}
+
+.author {
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+}
+
+.download-upload-time {
+    display: flex;
+    gap: 15px;
+}
+
+.publication-title {
+    font-size: 19px;
+    color: #4e4e4e;
+    font-family: GilroySemiBold;
+}
+
+.download-count-content, .file-size-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.download-count, .file-size, .upload-time {
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
+.fa-download, .fa-file, .fa-calendar-days {
+    font-size: 13px;
+    color: #4e4e4e;
+}
+
+.last-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.download-button {
+    padding: 7px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f68a01;
+    width: fit-content;
+    user-select: none;
+    font-size: 14px;
+    border: none;
+}
+
+.download-button:active {
+    position: relative;
+    top: 2px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page-number {
+    padding: 5px 14px;
+    color: #4e4e4e;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.page-number:hover {
+    color: #fff;
+    background: #f68a01;
+    transition: .2s;
+}
+
+.pagination-content {
+    display: flex;
+    width: 92.5%;
+}
+
+.employees-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 830px;
+    background-image: url(./img/6881590.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.employees {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 75%;
+
+}
+
+.employees-cards {
+    display: flex;
+    width: 82.5%;
+    justify-content: space-between;
+}
+
+.emploees-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 320px;
+    background-color: #fff;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    border-radius: 20px;
+
+}
+
+.emploees-card:hover {
+    cursor: pointer;
+
+}
+
+
+.employee-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.emplooes-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.employee-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.staff-title {
+    font-size: 16px;
+    font-family: GilroySemiBold;
+    color: #4e4e4e;
+}
+
+.staff-job {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+.download-button:hover {
+    background-color: #e88200;
+}
